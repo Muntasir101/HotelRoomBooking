@@ -70,14 +70,6 @@ python app.py
 
 ## Screenshots
 
-![Screenshot 1]((https://github.com/Muntasir101/HotelRoomBooking/blob/master/Screenshots/Success.png))
-*Description: This is the first screenshot of the application.*
-
-![Screenshot 2]((https://github.com/Muntasir101/HotelRoomBooking/blob/master/Screenshots/data_types.png))
-*Description: Here is another screenshot showing a data type validation.*
-
-![Screenshot 3]((https://github.com/Muntasir101/HotelRoomBooking/blob/master/Screenshots/max_night.png)))
-*Description: Here is another screenshot showing a max night validation.*
 
 License
 This project is licensed under the MIT License.
