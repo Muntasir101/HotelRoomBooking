@@ -9,7 +9,7 @@ The Hotel Room Booking System is a web-based application built using Flask, Pyth
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
+- [Screenshots](#Screenshots)
 - [License](#license)
 
 ## Features
