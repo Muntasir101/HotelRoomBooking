@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Room Booking System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="../static/script.js"></script>
+</head>
+<body>
+    <h1>Hotel Room Booking System</h1>
+    <form method="POST">
+        <label for="room_type">Select a Room Type</label>
+        <select id="room_type" name="room_type">
+            {% for code, room in room_types.items() %}
+                <option value="{{ code }}">{{ room.name }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <label for="nights">Number of Nights</label>
+        <input type="text" id="nights" name="nights" required data-error="Number of Nights must be numeric.">
+
+        <input type="submit" value="Calculate Cost">
+    </form>
+    <div id="totalCost"></div>
+
+
+</body>
+</html>

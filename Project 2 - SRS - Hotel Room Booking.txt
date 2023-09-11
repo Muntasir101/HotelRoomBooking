@@ -1,0 +1,20 @@
+Project: Hotel Room Booking System
+
+Calculate the cost based on the number of nights and room type for hotel room bookings.
+
+BR001: $100 per night for standard rooms.
+BR002: $150 per night for deluxe rooms.
+BR003: $200 per night for suites.
+
+Apply discounts based on the length of stay:
+BR004: 10% discount for bookings of 3 or more consecutive nights.
+BR005: 15% discount for bookings of 7 or more consecutive nights.
+BR006: No additional discounts for bookings of fewer than 3 nights.
+BR007: Max 30 Night
+
+Determine the total cost by multiplying the base price per night with the 
+number of nights and applying any applicable discounts.
+FR001 : System display error if user enter invalid data in Room selection. 
+FR002 : System display error if user enter more then 30 night. 
+
+TR001 : System only accept numeric value.
